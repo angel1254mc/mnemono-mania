@@ -1,0 +1,29 @@
+.navbar-outer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    background-color: black;
+    font-size: 22px;
+    width: 100%;
+    position: fixed;
+}
+.navbar-left {
+    margin-left: 20px;
+    padding: 15px;
+}
+.navbar-right {
+    margin-right: 20px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+}
+.navbar-left > a {
+    color: white;
+    text-decoration: none !important;
+}
+.link-el > a {
+    color: white;
+    text-decoration: none !important;
+}

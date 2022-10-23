@@ -1,0 +1,49 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Jost:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
+
+.home-outer {
+    padding-top: 60px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #33312E; 
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+}
+.home-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 15px;
+}
+.or-title-or-something {
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.collections-button, .options-button,
+.start-button {
+    width: 320px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 15px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    transition: 0.5s all ease-in-out;
+}
+
+.collections-button:hover, .options-button:hover,
+.start-button:hover {
+    background-color: #AA4100;
+    transform: translateY(-10%);
+    border-color: #AA4100;
+    
+}
