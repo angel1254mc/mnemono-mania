@@ -37,6 +37,18 @@ function CollectionsComponent() {
                         <td>Science, Technology, Engineering, Mathematics</td> 
                         <td><div className="edit-button">EDIT</div></td> 
                     </tr>
+                    <tr>
+                        <td>Color</td> 
+                        <td>STEM</td> 
+                        <td>Science, Technology, Engineering, Mathematics</td> 
+                        <td><div className="edit-button">EDIT</div></td> 
+                    </tr>
+                    <tr>
+                        <td>POEM</td> 
+                        <td>STEM</td> 
+                        <td>Science, Technology, Engineering, Mathematics</td> 
+                        <td><div className="edit-button">EDIT</div></td> 
+                    </tr>
                     </table>
                 </div>
             </div>

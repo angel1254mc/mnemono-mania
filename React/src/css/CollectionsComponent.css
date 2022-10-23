@@ -62,14 +62,16 @@
     background-color: black;
     border: 1px solid white;
 }
-.collection-table > tr > td {
+.collections-table > tr > td {
     text-align: left;
     padding-left: 15px;
     background-color: rgba(15, 15, 15, 0.5);
     border: 1px solid white;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
-.collection-table > tr:first-child {
-    background-color: black;
+tr > td:first-child {
+    background-color: black !important;
     
 }
 .table-container {
