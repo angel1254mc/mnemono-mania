@@ -35,7 +35,7 @@
 }
 .collection-block.empty {
     border: 3px dashed black;
-    background-color: rgba(15, 15, 15, 0.5)
+    background-color: rgba(15, 15, 15, 0.5);
 }
 .collection-block.empty:hover {
     transform: translateY(-5%);
@@ -56,9 +56,22 @@
     font-size: 14px;
     border-collapse: collapse;
 }
+.collections-table > tr > th {
+    text-align: left;
+    padding-left: 15px;
+    background-color: black;
+    border: 1px solid white;
+}
+.collection-table > tr > td {
+    text-align: left;
+    padding-left: 15px;
+    background-color: rgba(15, 15, 15, 0.5);
+    border: 1px solid white;
+}
+.collection-table > tr:first-child {
+    background-color: black;
+    
+}
 .table-container {
     flex-grow: 3;
-}
-.collections-table:first-child {
-    background-color: black;
 }

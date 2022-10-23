@@ -11,9 +11,11 @@ function HomeScreen() {
             <div className="start-button">
                 Start Game
             </div>
-            <div className="collections-button">
-                <Link to="collections">Mnemonic Collections</Link>
-            </div>
+            <Link to="collections">
+                <div className="collections-button">
+                    Mnemonic Collections
+                </div>
+            </Link>
             <div className="options-button">
                 Options
             </div>
